@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0; }
   .navbar__navbrand {
-    max-width: 30%;
+    width: 30%;
     padding: 5px 0 0 5px; }
   .navbar__navbar-menu {
     float: right; }
@@ -26,6 +26,7 @@ body {
   padding: 10px; }
 
 a {
+  color: #070439;
   font-family: 'Raleway', sans-serif;
   text-decoration: none; }
 
@@ -35,7 +36,10 @@ h3,
 h4,
 h5,
 h6 {
+  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
   text-align: center;
   line-height: 1.5; }
 
@@ -45,8 +49,31 @@ ul {
 
 .signup {
   padding: 5px; }
+  .signup__btn {
+    background: #3065f8;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    text-align: center; }
   .signup__illustration {
     padding: 50px 0 20px 0;
     max-width: 100%; }
+  .signup__input {
+    box-sizing: border-box;
+    border: 1px solid #070439;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-left: 5px;
+    margin-bottom: 15px; }
+    .signup__input:active {
+      outline-color: rgba(7, 4, 57, 0.1); }
+    .signup__input:focus {
+      outline-color: rgba(7, 4, 57, 0.1); }
   .signup__text {
     text-align: center; }

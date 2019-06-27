@@ -14,6 +14,7 @@ body {
 }
 
 a {
+    color: $dark-blue;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
@@ -24,7 +25,10 @@ h3,
 h4,
 h5,
 h6 {
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
     text-align: center;
     line-height: 1.5;
 }
@@ -37,9 +41,42 @@ ul {
 .signup {
     padding: 5px;
 
+    &__btn {
+        background: $bright-blue;
+        border-radius: 3px;
+        color: #fff;
+        display: block;
+        font-weight: 700;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 5px;
+        text-align: center;
+    }
+
     &__illustration {
         padding: 50px 0 20px 0;
         max-width: 100%;
+    }
+
+    &__input {
+        box-sizing: border-box;
+        border: 1px solid $dark-blue;
+        border-radius: 3px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+
+
+
+        &:active {
+            outline-color: rgba($dark-blue, .1);
+        }
+
+        &:focus {
+            outline-color: rgba($dark-blue, .1);
+        }
     }
 
     &__text {
