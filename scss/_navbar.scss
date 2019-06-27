@@ -1,0 +1,26 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+
+    &__navbrand {
+        max-width: 30%;
+        padding: 5px 0 0 5px;
+    }
+
+    &__navbar-menu {
+        float: right;
+
+        li {
+            display: inline-block;
+            font-size: .9rem;
+            list-style: none;
+            padding: 10px 20px 0 0;
+        }
+
+        li:last-child {
+            padding-right: 0;
+        }
+
+
+    }
+}
