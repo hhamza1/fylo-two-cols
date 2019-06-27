@@ -2,6 +2,51 @@
 /*----------Accent Colors---------------*/
 /*----------Neutral Colors--------------*/
 /*-------------Breakpoints-----------------*/
+.navbar {
+  margin: 0;
+  padding: 0; }
+  .navbar__navbrand {
+    max-width: 30%;
+    padding: 5px 0 0 5px; }
+  .navbar__navbar-menu {
+    float: right; }
+    .navbar__navbar-menu li {
+      display: inline-block;
+      font-size: .9rem;
+      list-style: none;
+      padding: 10px 20px 0 0; }
+    .navbar__navbar-menu li:last-child {
+      padding-right: 0; }
+
 body {
+  color: #070439;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 0;
+  padding: 10px; }
+
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 1.5; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+.signup {
+  padding: 5px; }
+  .signup__illustration {
+    padding: 50px 0 20px 0;
+    max-width: 100%; }
+  .signup__text {
+    text-align: center; }
