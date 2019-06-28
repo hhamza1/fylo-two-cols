@@ -1,0 +1,61 @@
+.section {
+    padding: 10px;
+
+    &__btn {
+        background: $bright-blue;
+        border-radius: 3px;
+        color: #fff;
+        display: block;
+        font-weight: 700;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 5px;
+        text-align: center;
+
+        &--green {
+
+            border-bottom: 1px solid $moderate-cyan;
+            color: $moderate-cyan;
+            padding-bottom: 1px;
+            text-align: center;
+
+        }
+    }
+
+    &__illustration {
+        padding: 50px 0 20px 20px;
+        max-width: 90%;
+    }
+
+    &__input {
+        box-sizing: border-box;
+        border: 1px solid $dark-blue;
+        border-radius: 3px;
+        font-family: 'Raleway', sans-serif;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        width: calc(100% - 5px);
+
+        &:active {
+            outline-color: rgba($dark-blue, .1);
+        }
+
+        &:focus {
+            outline-color: rgba($dark-blue, .1);
+        }
+    }
+
+    &__text {
+        text-align: center;
+
+        &--second {
+            font-size: 1rem;
+            text-align: left;
+            padding: 0 20px;
+
+        }
+    }
+}
