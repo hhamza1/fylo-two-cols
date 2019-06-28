@@ -1,6 +1,7 @@
 @import 'mixins';
 @import 'variables';
 
+@import 'section';
 @import 'navbar';
 
 
@@ -10,7 +11,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin: 0;
-    padding: 10px;
 }
 
 a {
@@ -38,48 +38,24 @@ ul {
     margin: 0;
 }
 
-.signup {
-    padding: 5px;
+.work {
+    background: rgba($lightgray-blue, .9);
+
+
+    &__heading {
+        font-size: 1.2rem;
+        padding: 20px;
+    }
 
     &__btn {
-        background: $bright-blue;
-        border-radius: 3px;
-        color: #fff;
-        display: block;
-        font-weight: 700;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin-left: 5px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
         text-align: center;
-    }
 
-    &__illustration {
-        padding: 50px 0 20px 0;
-        max-width: 100%;
-    }
-
-    &__input {
-        box-sizing: border-box;
-        border: 1px solid $dark-blue;
-        border-radius: 3px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 20px;
-        margin-left: 5px;
-        margin-bottom: 15px;
-
-
-
-        &:active {
-            outline-color: rgba($dark-blue, .1);
+        &--icon {
+            position: relative;
+            top: 3px;
         }
-
-        &:focus {
-            outline-color: rgba($dark-blue, .1);
-        }
-    }
-
-    &__text {
-        text-align: center;
     }
 }
