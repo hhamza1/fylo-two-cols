@@ -2,9 +2,51 @@
 /*----------Accent Colors---------------*/
 /*----------Neutral Colors--------------*/
 /*-------------Breakpoints-----------------*/
+.section {
+  padding: 10px; }
+  .section__btn {
+    background: #3065f8;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    text-align: center; }
+    .section__btn--green {
+      border-bottom: 1px solid #3c9f8f;
+      color: #3c9f8f;
+      padding-bottom: 1px;
+      text-align: center; }
+  .section__illustration {
+    padding: 50px 0 20px 20px;
+    max-width: 90%; }
+  .section__input {
+    box-sizing: border-box;
+    border: 1px solid #070439;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: calc(100% - 5px); }
+    .section__input:active {
+      outline-color: rgba(7, 4, 57, 0.1); }
+    .section__input:focus {
+      outline-color: rgba(7, 4, 57, 0.1); }
+  .section__text {
+    text-align: center; }
+    .section__text--second {
+      font-size: 1rem;
+      text-align: left;
+      padding: 0 20px; }
+
 .navbar {
   margin: 0;
-  padding: 0; }
+  padding: 10px; }
   .navbar__navbrand {
     width: 30%;
     padding: 5px 0 0 5px; }
@@ -22,8 +64,7 @@ body {
   color: #070439;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  margin: 0;
-  padding: 10px; }
+  margin: 0; }
 
 a {
   color: #070439;
@@ -47,33 +88,15 @@ ul {
   padding: 0;
   margin: 0; }
 
-.signup {
-  padding: 5px; }
-  .signup__btn {
-    background: #3065f8;
-    border-radius: 3px;
-    color: #fff;
-    display: block;
-    font-weight: 700;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 5px;
+.work {
+  background: rgba(246, 246, 254, 0.9); }
+  .work__heading {
+    font-size: 1.2rem;
+    padding: 20px; }
+  .work__btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center; }
-  .signup__illustration {
-    padding: 50px 0 20px 0;
-    max-width: 100%; }
-  .signup__input {
-    box-sizing: border-box;
-    border: 1px solid #070439;
-    border-radius: 3px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    margin-left: 5px;
-    margin-bottom: 15px; }
-    .signup__input:active {
-      outline-color: rgba(7, 4, 57, 0.1); }
-    .signup__input:focus {
-      outline-color: rgba(7, 4, 57, 0.1); }
-  .signup__text {
-    text-align: center; }
+    .work__btn--icon {
+      position: relative;
+      top: 3px; }
