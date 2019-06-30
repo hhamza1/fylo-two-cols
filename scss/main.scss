@@ -1,9 +1,10 @@
 @import "mixins";
 @import "variables";
 
+@import "footer";
+@import "navbar";
 @import "section";
 @import "testimonial";
-@import "navbar";
 
 body {
     color: $dark-blue;
