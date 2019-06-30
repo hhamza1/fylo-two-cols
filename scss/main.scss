@@ -1,21 +1,20 @@
-@import 'mixins';
-@import 'variables';
+@import "mixins";
+@import "variables";
 
-@import 'section';
-@import 'navbar';
-
-
+@import "section";
+@import "testimonial";
+@import "navbar";
 
 body {
     color: $dark-blue;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     margin: 0;
 }
 
 a {
     color: $dark-blue;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
 }
 
@@ -26,7 +25,7 @@ h4,
 h5,
 h6 {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
     margin: 0;
     text-align: center;
@@ -38,24 +37,7 @@ ul {
     margin: 0;
 }
 
-.work {
-    background: rgba($lightgray-blue, .9);
-
-
-    &__heading {
-        font-size: 1.2rem;
-        padding: 20px;
-    }
-
-    &__btn {
-
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
-
-        &--icon {
-            position: relative;
-            top: 3px;
-        }
-    }
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
