@@ -1,0 +1,188 @@
+/*----------Primary Colors---------------*/
+/*----------Accent Colors---------------*/
+/*----------Neutral Colors--------------*/
+/*-------------Breakpoints-----------------*/
+.section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section__btn {
+  background: #3065f8;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.section__btn--green {
+  border-bottom: 1px solid #3c9f8f;
+  color: #3c9f8f;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.section__illustration {
+  padding: 50px 0 20px 20px;
+  max-width: 90%;
+}
+
+.section__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #070439;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  width: calc(100% - 5px);
+}
+
+.section__input:active {
+  outline-color: rgba(7, 4, 57, 0.1);
+}
+
+.section__input:focus {
+  outline-color: rgba(7, 4, 57, 0.1);
+}
+
+.section__text {
+  text-align: center;
+}
+
+.section__text--second {
+  font-size: 1rem;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.testimonial {
+  background: rgba(246, 246, 254, 0.9);
+}
+
+.testimonial__heading {
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.testimonial__btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.testimonial__btn--icon {
+  position: relative;
+  top: 3px;
+}
+
+.testimonial__quote {
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 2px rgba(191, 191, 191, 0.3);
+          box-shadow: 2px 2px 5px 2px rgba(191, 191, 191, 0.3);
+  text-align: left;
+  margin: 40px 30px;
+}
+
+.testimonial__quote--symbol {
+  padding: 20px 0 0 15px;
+}
+
+.testimonial__quote--text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 10px 10px 20px 15px;
+}
+
+.testimonial__quote--author {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.testimonial__quote--author img {
+  max-width: 20%;
+  border-radius: 50%;
+}
+
+.testimonial .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar {
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar__navbrand {
+  width: 30%;
+  padding: 5px 0 0 5px;
+}
+
+.navbar__navbar-menu {
+  float: right;
+}
+
+.navbar__navbar-menu li {
+  display: inline-block;
+  font-size: .9rem;
+  list-style: none;
+  padding: 10px 20px 0 0;
+}
+
+.navbar__navbar-menu li:last-child {
+  padding-right: 0;
+}
+
+body {
+  color: #070439;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  color: #070439;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/*# sourceMappingURL=main.css.map */
