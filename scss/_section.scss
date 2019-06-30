@@ -1,5 +1,11 @@
 .section {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &__heading--white {
+        color: #fff;
+        font-size: 1.1rem;
+    }
 
     &__btn {
         background: $bright-blue;
@@ -19,6 +25,19 @@
             padding-bottom: 1px;
             text-align: center;
 
+        }
+
+        &--third {
+            background: $bright-blue;
+            border-radius: 3px;
+            color: #fff;
+            display: block;
+            font-weight: 700;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 50px;
+            text-align: center;
+            width: calc(75% - 5px);
         }
     }
 
@@ -46,6 +65,19 @@
         &:focus {
             outline-color: rgba($dark-blue, .1);
         }
+
+        &--third {
+            box-sizing: border-box;
+            border: 1px solid $dark-blue;
+            border-radius: 3px;
+            font-family: 'Raleway', sans-serif;
+            margin-left: 50px;
+            margin-bottom: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            width: calc(75% - 5px);
+        }
     }
 
     &__text {
@@ -57,5 +89,20 @@
             padding: 0 20px;
 
         }
+
+        &--white {
+            color: #fff;
+            font-size: 1.025rem;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+
+        }
+    }
+
+
+    &--bg-changed {
+        background: $desat-blue;
     }
 }
