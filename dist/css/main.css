@@ -2,6 +2,28 @@
 /*----------Accent Colors---------------*/
 /*----------Neutral Colors--------------*/
 /*-------------Breakpoints-----------------*/
+#footer {
+  background: #070439; }
+
+.footer__logo {
+  padding-left: 30px; }
+
+.navbar {
+  margin: 0;
+  padding: 10px; }
+  .navbar__navbrand {
+    width: 30%;
+    padding: 5px 0 0 5px; }
+  .navbar__navbar-menu {
+    float: right; }
+    .navbar__navbar-menu li {
+      display: inline-block;
+      font-size: .9rem;
+      list-style: none;
+      padding: 10px 20px 0 0; }
+    .navbar__navbar-menu li:last-child {
+      padding-right: 0; }
+
 .section {
   padding-left: 10px;
   padding-right: 10px; }
@@ -122,22 +144,6 @@
       font-weight: 700; }
     .testimonial__details--title {
       font-size: .6rem; }
-
-.navbar {
-  margin: 0;
-  padding: 10px; }
-  .navbar__navbrand {
-    width: 30%;
-    padding: 5px 0 0 5px; }
-  .navbar__navbar-menu {
-    float: right; }
-    .navbar__navbar-menu li {
-      display: inline-block;
-      font-size: .9rem;
-      list-style: none;
-      padding: 10px 20px 0 0; }
-    .navbar__navbar-menu li:last-child {
-      padding-right: 0; }
 
 body {
   color: #070439;
