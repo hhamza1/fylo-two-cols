@@ -3,10 +3,22 @@
 /*----------Neutral Colors--------------*/
 /*-------------Breakpoints-----------------*/
 #footer {
-  background: #070439; }
-
-.footer__logo {
+  background: #070439;
   padding-left: 30px; }
+
+.footer__contact-info {
+  color: #fff;
+  font-size: .9rem;
+  padding-top: 30px; }
+  .footer__contact-info a {
+    color: #fff;
+    text-decoration: none; }
+  .footer__contact-info ul {
+    list-style: none; }
+  .footer__contact-info img {
+    padding-right: 10px; }
+  .footer__contact-info li {
+    padding: 10px 0; }
 
 .navbar {
   margin: 0;
