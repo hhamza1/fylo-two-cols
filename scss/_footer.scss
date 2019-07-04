@@ -2,34 +2,36 @@
     background: $dark-blue;
     padding-left: 30px;
 
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    img {
+        padding-right: 10px
+    }
+
+    li {
+        padding: 10px 0;
+    }
+
 
 }
 
 .footer {
 
-
     &__contact-info {
         color: #fff;
         font-size: .9rem;
         padding-top: 30px;
+    }
 
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        ul {
-            list-style: none;
-        }
-
-        img {
-            padding-right: 10px
-        }
-
-        li {
-            padding: 10px 0;
-        }
-
+    &__social-media {
+        color: #fff;
     }
 
 
