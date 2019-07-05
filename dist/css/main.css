@@ -4,7 +4,7 @@
 /*-------------Breakpoints-----------------*/
 #footer {
   background: #070439;
-  padding-left: 30px; }
+  padding-left: 20px; }
   #footer a {
     color: #fff;
     text-decoration: none; }
@@ -17,11 +17,23 @@
 
 .footer__contact-info {
   color: #fff;
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding-top: 30px; }
 
 .footer__social-media {
-  color: #fff; }
+  color: #fff;
+  font-size: 2rem;
+  padding-top: 30px; }
+  .footer__social-media ul {
+    text-align: center; }
+  .footer__social-media--item {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 10px;
+    padding: 0 0 4px 8px !important; }
+  .footer__social-media--item:last-child {
+    padding-right: 8px !important; }
 
 .navbar {
   margin: 0;
