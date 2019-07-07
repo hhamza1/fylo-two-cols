@@ -25,6 +25,11 @@
         color: #fff;
         font-size: 0.9rem;
         padding-top: 30px;
+
+
+        &--item>span {
+            vertical-align: 3px;
+        }
     }
 
     &__social-media {
