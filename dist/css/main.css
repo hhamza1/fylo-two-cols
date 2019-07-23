@@ -4,6 +4,8 @@
 /*-------------Breakpoints-----------------*/
 #footer {
   background: #070439;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 20px; }
   #footer a {
     color: #fff;
