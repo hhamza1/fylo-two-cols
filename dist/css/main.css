@@ -208,8 +208,18 @@ ul {
 
 @media screen and (min-width: 768px) {
   .container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: "section2 section1";
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 20px;
     padding-right: 20px; }
+    .container .section1 {
+      grid-row: 1;
+      grid-column: 2; }
+    .container .section2 {
+      grid-row: 1;
+      grid-column: 1; }
   .navbar {
     padding: 20px; }
     .navbar__navbrand {
@@ -229,32 +239,41 @@ ul {
   .section__heading, .section__text {
     text-align: left;
     padding-left: 5px; }
-  .section .container {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-areas: "section2 section1";
-    grid-template-columns: repeat(2, 1fr); }
-    .section .container .section1 {
-      grid-row: 1;
-      grid-column: 2;
-      align-self: center; }
-    .section .container .section2 {
-      grid-row: 1;
-      grid-column: 1;
-      align-self: center; }
-  .testimonial__heading {
-    font-size: 2rem;
-    text-align: left; }
-  .testimonial__text--second {
-    max-width: 200px;
-    overflow: ellipsis; }
-  .testimonial .container {
-    display: grid;
-    grid-template-areas: "section1 section2"; }
-    .testimonial .container .section1 {
-      grid-row: 1;
-      grid-column: 2; }
-    .testimonial .container .section2 {
-      grid-row: 1;
-      grid-column: 1;
-      margin: 0 auto; } }
+    .section__heading--second, .section__text--second {
+      max-width: 500px; }
+  .section .section2 {
+    margin: 50px 0;
+    align-self: center; }
+  .testimonial {
+    border-top: 20px solid rgba(246, 246, 254, 0.9);
+    border-image-source: url(../img/bg-curve-desktop.svg); }
+    .testimonial__quote {
+      max-width: 320px;
+      padding: 30px; }
+    .testimonial__heading {
+      font-size: 1.9rem;
+      text-align: left; }
+    .testimonial__text--second {
+      max-width: 200px;
+      overflow: ellipsis; }
+  .section--bg-changed h4 {
+    text-align: left;
+    font-size: 1.2rem;
+    padding-left: 20px; }
+  .section--bg-changed p {
+    text-align: left;
+    max-width: 500px; }
+  .section--bg-changed .section__input--third {
+    width: calc(70% - 5px); }
+  .section--bg-changed .section__btn--third {
+    width: calc(30% - 5px); }
+  #footer {
+    padding: 50px; }
+    #footer .footer {
+      display: grid;
+      grid-template-areas: "contact-info contact-info contact-info social-media";
+      grid-template-columns: repeat(auto-fit, 4, 1fr);
+      padding-top: 30px;
+      align-self: start; }
+      #footer .footer__contact-info, #footer .footer__social-media {
+        padding-top: 0; } }
